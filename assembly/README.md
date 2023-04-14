@@ -63,6 +63,9 @@ You need to make two identical wrists each for both sides - this means, that you
 |  8x | M3x8 |
 |  4x | M2 nuts |
 |  4x | M2x8 |
+|  4x | Extended Servo Cable | 
+
+# TODO: How long of a cable?
 
 ### Wrist and foot tip ###
 
@@ -90,6 +93,7 @@ Your assembled wrist should look like this one. Repeat it once again for the sec
 
 ## Upper Leg ##
 You need to make two identical upper legs each for both sides - this means, that you need two mirrored pieces for the upper leg bottom shell, upper leg top shell, servohorn mount and ball bearing mount.
+
 
 ### Parts ###
 
@@ -149,6 +153,11 @@ Push your 625ZZ Ball Bearing into the Ballbearing Mount (it should be are really
 
 ### Upper Leg Bottom Shell preparation ###
 
+# TODO: Need M3 BB pins
+Shoulder_Joint_Ball_Bearing_Pin_M3x8.stl
+Limb_Top_Shell_with_BB_hole.stl
+embed nut for pin
+
 Put four M3 nuts in the holes by the servo-pocket and push the servo into place. The two inner nuts are secured by the servo, the two out nuts might fall out so be careful not to lose them.
 
 ![008 - Bottom Shell & Servo](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/008_bottomshell_pre.png)
@@ -156,6 +165,8 @@ Put four M3 nuts in the holes by the servo-pocket and push the servo into place.
 ![008 - Bottom Shell & Servo](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/008_bottomshell_post.png)
 
 ### Route Cables through Upper Leg Top Shell ###
+
+# TODO: How much cable?
 
 This part is a bit tricky, especialy when using fabric hoses for the servocables, since the space between the shells is very limited. Route your extended servocable from the wrist through the front hole of the top shell. Pull after that the servocable of the bottom shell servo through the hole as well. 
 
@@ -238,6 +249,16 @@ You need to make two identical Shoulder Joints for both sides - this means, that
 ### Servohorn Cap Preparation ###
 
 You need to screw the M2 nuts on the M2x8 first, otherwise it would hinder the mounting of the servohorn. You can't use the bare M2x8 screws without the nuts in this step, because they would stick out from the other side and touch the servo unavoidably, which would result in blocking the servo movement or other damage. **You might consider using M2x6 instead and ditch the need for M2 nuts here completly.** Screw the servohorn into place, using the middle hole on each little arm.
+
+
+#TODO: 
+These need to be 
+Shoulder_Joint_Servomount_extended_BB.stl orientation up (slot is pointing up on servo cap)
+Shoulder_Joint_Servo_Cap_Extended.stl
+Shoulder_Joint_Ball_Bearing_Pin_M3x8.stl
+M3 instead of m2
+M3 BB Pins
+
 
 ![013 - Servohorn Cap Preparation](https://github.com/michaelkubina/SpotMicroESP32/blob/master/assembly/images/013_servohorncap_pre.png)
 
